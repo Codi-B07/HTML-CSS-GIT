@@ -1,1 +1,20 @@
 /* Add your CSS code below */
+a {
+  color: red;
+  font-weight: bold;
+  text-decoration: none;
+}
+.message__time {
+  font-size: 0.9rem;
+}
+.message--unread {
+  /* doesnt show without specifiying the border ex 2 px or so Or solid or ...*/
+  border-left: solid blue;
+}
+.messages div:nth-child(1) {
+  /*yesterdays message is the 1st*/
+  opacity: 50%;
+}
+p {
+  line-height: 500%;
+}
