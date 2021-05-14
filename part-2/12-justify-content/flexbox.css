@@ -7,3 +7,24 @@
 }
 
 /* Add your own CSS code below */
+
+.countries--first {
+  flex-direction: row;
+  justify-content: flex-end;
+  /* not enough space without changing the font size*/
+  font-size: 13px;
+}
+.countries--second {
+  flex-direction: row;
+  justify-content: space-around;
+  /* made the font size smaller so the spaces show a litle more */
+  font-size: 13px;
+}
+.countries--third {
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.countries--fourth {
+  flex-direction: column;
+  justify-content: space-around;
+}
