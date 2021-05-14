@@ -1,5 +1,57 @@
 .countries {
-  display: flex;
+    display: flex;
 }
 
+
 /* Add your own CSS code below */
+
+.countries--first {
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: row;
+}
+
+.countries--second {
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: row-reverse;
+}
+
+.countries--third {
+    justify-content: right;
+    align-items: flex-start;
+    /* flex-direction: row-reverse; */
+}
+
+.countries--third .country--brazil {
+    align-self: flex-end;
+}
+
+.countries--fourth {
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.countries--fourth .country--ethiopia {
+    align-self: center;
+}
+
+.countries--fourth .country--laos {
+    align-self: center;
+}
+
+.countries--fifth {
+    flex-direction: column-reverse;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.countries--fifth .country--laos {
+    /* align-self: center; */
+    order: 1;
+}
+
+.countries--fifth .country--uganda {
+    align-self: center;
+}
