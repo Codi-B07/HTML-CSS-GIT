@@ -10,6 +10,6 @@
   font-size: 12px;
   text-align: center;
 }
-.site-wrapper div > div:last-child {
+.messages > div:last-child {
   box-shadow: 4px 4px 0 #dba944;
 }
