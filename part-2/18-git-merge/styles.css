@@ -4,3 +4,10 @@
   font-weight: 700;
   text-decoration: none;
 }
+
+.link {
+  color: black;
+}
+body {
+  display: none;
+}

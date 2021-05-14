@@ -3,3 +3,10 @@
 }
 
 /* Add your own CSS code below */
+.country--brazil {
+  order: 1;
+}
+
+.country--uganda {
+  order: 2;
+}
