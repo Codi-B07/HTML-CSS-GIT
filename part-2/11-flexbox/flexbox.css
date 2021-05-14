@@ -1,1 +1,16 @@
 /* Add your own CSS code below */
+.countries--first {
+  display: flex;
+  flex-direction: row-reverse;
+  /* padding-left: 550px; so it looks like the screenshot..*/
+}
+.countries--second {
+  display: flex;
+  flex-direction: column;
+}
+.countries--third {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+/*** The font and size look different than the ones in the screenshot but the exreadme said to only change the flex things so Im not gonna change them EVEN THO THEYRE TRIGGERING MY OCD */
