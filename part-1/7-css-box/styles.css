@@ -4,3 +4,19 @@
   border-radius: 4px;
   background: #fff;
 }
+
+/*to show element borders :
+
+* { 
+  border: 1px solid red; 
+}
+
+*/
+.country {
+  padding: 15px;
+  margin: 10px;
+}
+.countries {
+  padding: 5px;
+  margin: 10px;
+}
