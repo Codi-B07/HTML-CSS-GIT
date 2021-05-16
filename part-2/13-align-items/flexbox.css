@@ -1,4 +1,82 @@
-.countries {
+.first {
   display: flex;
+  background-color: #25262f;
+  width: 520px;
+  height: 500px;
 }
-/* Add your own CSS code below */
+
+.first > li.country {
+  padding: 15px;
+  background-color: white;
+  font-size: smaller;
+  padding-top: 28px;
+  margin: 1.5px;
+  margin-top: 200px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  height: 15px;
+  overflow: hidden;
+}
+
+.second {
+  display: flex;
+  background-color: #25262f;
+  width: 520px;
+  height: 500px;
+}
+
+.second > li.country {
+  padding: 15px;
+  background-color: white;
+  font-size: smaller;
+  padding-top: 28px;
+  margin: 1.5px;
+  margin-top: 400px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  height: 15px;
+  overflow: hidden;
+}
+
+.third {
+  display: flex;
+  flex-direction: column;
+  background-color: #25262f;
+  width: 520px;
+  align-items: center;
+  height: 500px;
+  padding-top: 15px;
+}
+
+.third > li.country {
+  padding: 2px;
+  background-color: white;
+  padding-top: 2px;
+  margin-top: 2px;
+  height: 50px;
+  overflow: hidden;
+  width: 90px;
+  margin-left: 390px;
+}
+
+.fourth {
+  display: flex;
+  flex-direction: column-reverse;
+  background-color: #25262f;
+  width: 520px;
+  align-items: center;
+  height: 500px;
+}
+
+.fourth > li.country {
+  padding: 2px;
+  background-color: white;
+  padding-top: -10px;
+  margin: 0.5px;
+  margin-top: -8px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  height: 50px;
+  overflow: hidden;
+  width: 90px;
+}
