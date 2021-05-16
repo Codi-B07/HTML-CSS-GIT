@@ -1,5 +1,87 @@
-.countries {
+.first {
   display: flex;
+  background-color: #25262f;
+  width: 520px;
+  height: 100px;
 }
 
-/* Add your own CSS code below */
+.first > li.country {
+  padding: 15px;
+  background-color: white;
+  font-size: small;
+  padding-top: 28px;
+  margin: 1.5px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  overflow: hidden;
+  height: 20px;
+  margin-top: 20px;
+}
+
+.country--brazil {
+  order: 1;
+}
+
+.second {
+  display: flex;
+  background-color: #25262f;
+  width: 520px;
+  height: 100px;
+}
+
+.second > li.country {
+  padding: 15px;
+  background-color: white;
+  font-size: small;
+  padding-top: 28px;
+  margin: 1.5px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  overflow: hidden;
+  height: 20px;
+  margin-top: 20px;
+}
+
+.country--uganda {
+  order: 1;
+}
+
+.third {
+  display: flex;
+  background-color: #25262f;
+  width: 520px;
+  height: 100px;
+}
+
+.third > li.country {
+  padding: 15px;
+  background-color: white;
+  font-size: small;
+  padding-top: 28px;
+  margin: 1.5px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  overflow: hidden;
+  height: 20px;
+  margin-top: 20px;
+}
+
+ul.third > li.country--uganda {
+  order: -1;
+}
+
+ul.third > li.country--croatia {
+  order: 2;
+}
+
+ul.third > li.country--ethiopia {
+  order: 1;
+}
+
+ul.third > li.country--brazil {
+  order: 3;
+}
+
+ul.third > li.country--laos {
+  order: 0;
+}
