@@ -1,1 +1,42 @@
-/* Try different box model properties below */
+.site-header {
+  background-color: rgb(120, 201, 228);
+  color: white;
+  margin-bottom: 50px;
+  margin-top: -30px;
+}
+
+.site-footer > p {
+  text-align: center;
+  font-size: 12px;
+  margin-top: 50px;
+}
+
+.message {
+  margin: 1rem 3rem 1rem 1rem;
+  padding: 0.5rem;
+  font-size: 14px;
+  line-height: 1.8em;
+  border-radius: 2px;
+  background: #fff;
+}
+
+.site-wrapper {
+  max-width: 30rem;
+  margin-top: 5rem;
+  margin-left: auto;
+  margin-right: auto;
+  background: #d6d8e1;
+  border-radius: 0px;
+  height: 550px;
+}
+
+.message__time {
+  float: right;
+  color: gray;
+  font-size: small;
+  margin-top: -20px;
+}
+
+.messages > *:last-child {
+  box-shadow: 4px 4px 0 #dba944;
+}
