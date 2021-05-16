@@ -1,1 +1,51 @@
-/* Add your own CSS code below */
+.first {
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 10px;
+  background-color: #25262f;
+  height: 60px;
+  margin-left: 200px;
+}
+
+.first > li.country {
+  columns: 2;
+  background-color: white;
+  padding-top: 20px;
+  margin: 1px;
+  padding-left: 10px;
+  padding: 15px;
+}
+
+.second {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  background-color: #25262f;
+  margin-left: 200px;
+}
+
+.second > li.country {
+  columns: 2;
+  background-color: white;
+  padding-top: 20px;
+  margin: 0.5px;
+  padding-left: 10px;
+  padding: 15px;
+}
+
+.third {
+  display: flex;
+  flex-direction: column-reverse;
+  padding: 13px;
+  background-color: #25262f;
+  margin-left: 200px;
+}
+
+.third > li.country {
+  columns: 2;
+  background-color: white;
+  padding-top: 20px;
+  margin: 0.5px;
+  padding-left: 10px;
+  padding: 15px;
+}
