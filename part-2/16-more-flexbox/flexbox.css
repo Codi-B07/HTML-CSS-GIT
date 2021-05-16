@@ -1,5 +1,166 @@
-.countries {
+.first {
   display: flex;
+  background-color: #25262f;
+  width: 550px;
+  height: 490px;
 }
 
-/* Add your own CSS code below */
+.first > li.country {
+  padding: 15px;
+  background-color: white;
+  font-size: small;
+  margin: 1px;
+  padding-top: 15px;
+  overflow: hidden;
+  height: 15px;
+  padding-left: 30px;
+  margin-top: 20px;
+  align-self: end;
+  margin-bottom: 30px;
+}
+
+.second {
+  display: flex;
+  background-color: #25262f;
+  width: 550px;
+  height: 490px;
+}
+
+.second > li.country {
+  padding: 15px;
+  background-color: white;
+  font-size: small;
+  margin: 1px;
+  padding-top: 15px;
+  overflow: hidden;
+  height: 15px;
+  padding-left: 30px;
+  margin-top: 20px;
+  align-self: end;
+  margin-bottom: 30px;
+}
+
+ul.second > li.country--uganda {
+  order: -1;
+}
+
+ul.second > li.country--croatia {
+  order: 2;
+}
+
+ul.second > li.country--ethiopia {
+  order: 1;
+}
+
+ul.second > li.country--brazil {
+  order: 3;
+}
+
+ul.second > li.country--laos {
+  order: 0;
+}
+
+.third {
+  display: flex;
+  background-color: #25262f;
+  width: 550px;
+  height: 490px;
+}
+
+.third > li.country {
+  padding: 15px;
+  background-color: white;
+  font-size: small;
+  margin: 1px;
+  padding-top: 15px;
+  overflow: hidden;
+  height: 15px;
+  padding-left: 30px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+ul.third > li.country--brazil {
+  align-self: end;
+}
+
+.fourth {
+  display: flex;
+  flex-direction: column;
+  background-color: #25262f;
+  width: 550px;
+  height: 490px;
+  padding-top: 130px;
+}
+
+.fourth > li.country {
+  padding: 15px;
+  background-color: white;
+  font-size: small;
+  overflow: hidden;
+  margin-top: 2px;
+  align-self: center;
+  width: 70px;
+  margin-right: 10px;
+}
+
+ul.fourth > li.country--brazil {
+  align-self: end;
+  width: 60px;
+}
+
+ul.fourth > li.country--croatia {
+  align-self: end;
+}
+
+ul.fourth > li.country--uganda {
+  align-self: end;
+}
+
+ul.fourth > li.country--ethiopia {
+  width: 100px;
+}
+
+.fifth {
+  display: flex;
+  flex-direction: column;
+  background-color: #25262f;
+  width: 550px;
+  height: 490px;
+  padding-top: 10px;
+  margin-top: -10px;
+}
+
+.fifth > li.country {
+  padding: 15px;
+  background-color: white;
+  overflow: hidden;
+  margin-top: 2px;
+  align-self: end;
+  width: 90px;
+  margin: 20px;
+  margin-right: 10px;
+}
+
+ul.fifth > li.country--uganda {
+  order: -1;
+  align-self: center;
+}
+ul.fifth > li.country--brazil {
+  width: 80px;
+  order: 3;
+}
+
+ul.fifth > li.country--croatia {
+  order: 2;
+}
+
+ul.fifth > li.country--laos {
+  order: -1;
+  width: 60px;
+}
+
+ul.fofifthurth > li.country--ethiopia {
+  width: 100px;
+  order: 0;
+}
