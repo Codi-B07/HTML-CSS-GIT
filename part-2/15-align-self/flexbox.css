@@ -1,5 +1,111 @@
-.countries {
+.first {
   display: flex;
+  background-color: #25262f;
+  width: 520px;
+  height: 490px;
 }
 
-/* Add your own CSS code below */
+.first > li.country {
+  padding: 15px;
+  background-color: white;
+  font-size: small;
+  padding-top: 28px;
+  margin: 1.5px;
+  margin-left: 0px;
+  overflow: hidden;
+  height: 450px;
+  margin-top: 20px;
+}
+
+ul.first > li.country--ethiopia {
+  align-self: end;
+  height: 10px;
+}
+
+.second {
+  display: flex;
+  background-color: #25262f;
+  width: 520px;
+  height: 400px;
+}
+
+.second > li.country {
+  padding: 15px;
+  background-color: white;
+  font-size: small;
+  padding-top: 28px;
+  margin: 1.5px;
+  margin-left: 0px;
+  overflow: hidden;
+  height: 30px;
+  margin-top: 180px;
+  align-items: center;
+}
+
+ul.second > li.country--ethiopia {
+  align-self: end;
+  height: 10px;
+  margin-bottom: 15px;
+}
+
+.third {
+  display: flex;
+  background-color: #25262f;
+  width: 520px;
+  height: 400px;
+}
+
+.third > li.country {
+  padding: 15px;
+  background-color: white;
+  font-size: small;
+  padding-top: 28px;
+  margin: 1.5px;
+  margin-left: 0px;
+  overflow: hidden;
+  height: 30px;
+  margin-top: 20px;
+  align-items: center;
+}
+
+ul.third > li.country--ethiopia {
+  align-self: end;
+  height: 10px;
+  margin-bottom: 15px;
+}
+
+ul.third > li.country--croatia {
+  align-self: end;
+  height: 10px;
+  margin-bottom: 15px;
+}
+
+ul.third > li.country--laos {
+  align-self: end;
+  height: 10px;
+  margin-bottom: 15px;
+}
+
+.fourth {
+  display: flex;
+  flex-direction: column;
+  background-color: #25262f;
+  width: 520px;
+  height: 500px;
+  padding-top: 20px;
+}
+
+.fourth > li.country {
+  padding: 15px;
+  background-color: white;
+  font-size: small;
+  overflow: hidden;
+  margin-top: 2px;
+  align-items: center;
+  width: 70px;
+}
+
+ul.fourth > li.country--uganda {
+  align-self: center;
+  margin-bottom: 15px;
+}
